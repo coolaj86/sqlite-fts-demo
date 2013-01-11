@@ -92,7 +92,7 @@ Now let's import [data.sql][haskell-irc-logs] (it'll take a while) into our data
 
 ```bash
 git clone git://github.com/coolaj86/sqlite-fts-demo.git
-cd node-sqlite-fts-demo
+cd sqlite-fts-demo
 sqlite3 ./archive.sqlite3 < ./schema.sql
 bunzip2 data.sql.bz2 -c | sqlite3 ./archive.sqlite3
 # for me time reports '145.21s user 3.33s system 115% cpu 2:08.70 total'
