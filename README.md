@@ -91,7 +91,7 @@ any storage and search mechanism will work well.
 Now let's import [data.sql][haskell-irc-logs] (it'll take a while) into our database.
 
 ```bash
-git clone git://github.com/coolaj86/node-sqlite-fts-demo.git
+git clone git://github.com/coolaj86/sqlite-fts-demo.git
 cd node-sqlite-fts-demo
 sqlite3 ./archive.sqlite3 < ./schema.sql
 bunzip2 data.sql.bz2 -c | sqlite3 ./archive.sqlite3
