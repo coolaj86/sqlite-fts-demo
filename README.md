@@ -5,6 +5,8 @@ Full-Text Search is a super fast way to search large datasets with unstructured 
 You can use it to search documents (IRC logs, PDFs), media metadata (think YouTube, Spotify),
 and even serialized objects (JSON, XML).
 
+SQLite-FTS3 and SQLite-FTS4 come bundled with SQLite and make full-text search relatively easy to implement.
+
 For the demo, you'll need to start downloading [data.sql][haskell-irc-logs] now.
 
 [haskell-irc-logs]: http://dropsha.re/files/6eUas.8/data.sql.bz2
